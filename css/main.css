@@ -1,0 +1,109 @@
+body {
+    width:100%;
+    padding:0;
+    margin:0;
+    border:0;
+}
+
+
+/****************************
+    Header Styles
+*****************************/
+
+header {
+    height:170px;
+    position:fixed;
+    top:0;
+    background: #ffffff; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ffffff 0%, #eeeeee 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ffffff), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(top,  #ffffff 0%,#eeeeee 100%); /* IE10+ */
+    background: linear-gradient(to bottom,  #ffffff 0%,#eeeeee 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+    width:100%;
+    -webkit-box-shadow:  0px 2px 2px 0px rgba(55, 55, 55, .3);
+    box-shadow:  0px 2px 2px 0px rgba(55, 55, 55, .3);
+}
+
+.topHeader {
+    width:90%;
+    margin:12px auto 0;
+    height:85px;
+}
+
+.logo {
+    background:url('../img/logo.png') 0 50% transparent no-repeat;
+    height:62px;
+    float:left;
+    width:33%;
+}
+
+h1 {
+    float:right;
+    width:64%;
+    font-size:28px;
+}
+
+header p {
+    clear:both;
+    text-align:left;
+    width:90%;
+    margin:0 auto;
+    font-size:24px;
+    line-height:1.1;
+}
+
+.highlight {
+    color:#e31829;
+    font-weight:bold;
+}
+
+
+
+/****************************
+    ToS Styles
+*****************************/
+
+.tos {
+    width:90%;
+    margin:190px auto;
+}
+
+h2 {
+    font-size:26px;
+}
+
+.tos a {
+    font-size:30px;
+    color:#000;
+    text-decoration:none;
+    font-weight:bold;
+    text-align:center;
+    display:block;
+    margin:25px 0;
+}
+
+/****************************
+    Footer Styles
+*****************************/
+
+footer {
+    position:fixed;
+    bottom:0;
+    padding:32px 0 0 0;
+    height:93px;
+    -webkit-box-shadow:  0px -2px 2px 0px rgba(55, 55, 55, .3);
+    box-shadow:  0px -2px 2px 0px rgba(55, 55, 55, .3);
+    background:#fff;
+    width:100%;
+}
+
+footer .btn {
+    width:50%;
+    margin:0 auto;
+    height:60px;
+    display:block;
+    font-size:36px;
+}
